@@ -8,4 +8,5 @@ body {
     /* height: 60px; */
     background-color: #4aaaa5;
     color: #ffffff;
+    z-index: 1;
 }
