@@ -4,9 +4,29 @@ body {
     margin: 0;      
 }
 
+.header {
+    border-bottom: solid #cccccc 2px;
+}
+
 #yourname {
-    /* height: 60px; */
     background-color: #4aaaa5;
     color: #ffffff;
+    /* padding: 10px; */
     z-index: 1;
+    height: 100%;
 }
+
+.footer {
+    border-top: solid #4aaaa5 5px;
+    background-color: #666666;
+}
+
+#copy {
+    text-align: center; 
+    font-size: 10px;
+}
+
+/* 
+#navborder {
+    border-width: 10px;
+} */
