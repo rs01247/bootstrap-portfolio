@@ -26,6 +26,10 @@ body {
     font-size: 10px;
 }
 
+.portimg {
+    text-align: center;
+}
+
 /* 
 #navborder {
     border-width: 10px;
