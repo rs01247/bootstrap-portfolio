@@ -30,6 +30,11 @@ body {
     text-align: center;
 }
 
+.button-color {
+    background-color:  #4aaaa5;
+    border-color: #4aaaa5;
+}
+
 /* 
 #navborder {
     border-width: 10px;
