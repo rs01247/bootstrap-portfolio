@@ -11,6 +11,7 @@ body {
 #yourname {
     background-color: #4aaaa5;
     color: #ffffff;
+    z-index: 99;
 }
 
 .footer {
