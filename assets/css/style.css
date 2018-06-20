@@ -6,16 +6,21 @@ body {
 
 .header {
     border-bottom: solid #cccccc 2px;
+    background-color: #666666
 }
 
 #yourname {
-    background-color: #4aaaa5;
+    font-family: 'Ubuntu', sans-serif;
     color: #ffffff;
     z-index: 99;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 .footer {
-    border-top: solid #4aaaa5 5px;
+    border-top: solid #cccccc 5px;
     background-color: #666666;
 }
 
