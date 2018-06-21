@@ -37,3 +37,7 @@ a:hover {
     background-color:  #4aaaa5;
     border-color: #4aaaa5;
 }
+
+.bio-link {
+    font-size: 3vh;
+}
