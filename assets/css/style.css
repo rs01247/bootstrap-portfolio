@@ -1,31 +1,46 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url("../images/stonehaven.png");
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: 'Economica', sans-serif; */
+    font-family: 'Jaldi', sans-serif;
+    /* font-family: 'Jura', sans-serif; */
     margin: 0;      
 }
 
-.header {
+/* .header {
     border-bottom: solid #cccccc 2px;
-    background-color: #666666
-}
+    background-color: #FFFFFF;
+} */
 
 #yourname {
-    font-family: 'Ubuntu', sans-serif;
-    color: #ffffff;
-    z-index: 99;
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Assistant', sans-serif;
+    /* font-family: 'Jaldi', sans-serif; */
+    color: darkslategray;
+    font-size: 3vh;
+    /* z-index: 99; */
 }
 
+.top-link {
+    color: darkslategray;
+    font-family: 'Jaldi', sans-serif;
+}   
+
 a:hover {
+    color: lightgray;
     text-decoration: none;
 }
 
+#ccc-image {
+    width: 100%;
+}
+
 .footer {
-    border-top: solid #cccccc 5px;
+    border-top: solid #cccccc 2px;
     background-color: #666666;
+    width: 100%;    
 }
 
 #copy {
-    text-align: center; 
     font-size: 10px;
 }
 
@@ -40,4 +55,19 @@ a:hover {
 
 .bio-link {
     font-size: 3vh;
+}
+
+@media (max-width: 576px) { 
+    
+    #yourname {
+        font-size: 2vh;
+    }
+}
+
+/* @media (min-width: 768px) { ... } */
+
+@media (max-width: 992px) {
+    #my-pic {
+        width: 60%;
+    }
 }
