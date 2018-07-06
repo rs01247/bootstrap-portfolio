@@ -55,12 +55,22 @@ a:hover {
 
 .bio-link {
     font-size: 3vh;
+    color: gray
+}
+
+.contact-title {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-form {
+    background-color: #f0f0f0;
+    color: #000000;
 }
 
 @media (max-width: 576px) { 
     
     #yourname {
-        font-size: 2vh;
+        font-size: 90%;
     }
 
     /* #ccc-image {
