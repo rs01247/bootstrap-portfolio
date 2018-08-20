@@ -1,0 +1,27 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rs01247/bootstrap-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rs01247/bootstrap-portfolio/issues"
+  },
+  "homepage": "https://github.com/rs01247/bootstrap-portfolio#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "animate.css": "^3.7.0",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0"
+  }
+}
