@@ -39,7 +39,7 @@ a:hover {
 
 .port-img {
       filter:#d3d3d3;
-      -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+      -webkit-filter: grayscale(1);
       -webkit-transition: all .2s ease-in-out;  
 }
 
