@@ -1,6 +1,13 @@
+/* html {
+    height: 100%;
+    position: relative;
+} */
+
 body {
     font-family: 'Jaldi', sans-serif;
-    margin: 0;      
+    margin: 0;   
+    /* height: 100%;
+    position: relative;    */
 }
 
 #yourname {
@@ -19,18 +26,12 @@ a:hover {
     text-decoration: none;
 }
 
+#resp-image {
+    display: none;
+}
+
 #ccc-image {
     width: 100%;
-}
-
-.footer {
-    border-top: solid #cccccc 2px;
-    background-color: #666666;
-    width: 100%;    
-}
-
-#copy {
-    font-size: 10px;
 }
 
 #port-logo {
@@ -58,16 +59,37 @@ a:hover {
     color: gray
 }
 
+#my-bio, #my-port {
+    margin-top: 15vh;
+}
+
+.footer {
+    /* border-top: solid #cccccc 2px; */
+    padding-top: 2vh;
+    background-color: #a3adc1;
+    width: 100%;    
+    /* position: absolute;
+    bottom: 0; */
+}
+
+.footer-link {
+    color: #f0f0f0;
+}
+
+/* #contact-box {
+    padding-bottom: 25vh;
+} */
+
 .connect {
     position: relative;
 	/* padding-bottom: 30px; */
 }
 
 #lets-connect {
-	position: absolute;
-	bottom: 7%;
-    right: 15%;
-    width: 50%;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    width: 70%;
 }
 
 .contact-title {
@@ -99,5 +121,11 @@ a:hover {
     }
     #lets-connect {
         display: none;
+    }
+    #ccc-image {
+        display: none;
+    }
+    #resp-image {
+        display: block;
     }
 }
