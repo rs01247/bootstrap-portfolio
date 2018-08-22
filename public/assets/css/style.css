@@ -89,7 +89,7 @@ a:hover {
     position: absolute;
     bottom: 5%;
     right: 5%;
-    width: 70%;
+    height: 90%;
 }
 
 .contact-title {
@@ -127,5 +127,6 @@ a:hover {
     }
     #resp-image {
         display: block;
+        width: 100%;
     }
 }
