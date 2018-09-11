@@ -34,6 +34,13 @@ a:hover {
     width: 100%;
 }
 
+#skill-box {
+    /* background-image: url("../images/CCC_2.png");
+    background-position: center;
+    width: 100%; */
+    background-color: lightgray;
+}
+
 .card-header {
     background-color: #a3adc1;
     color: white;
@@ -80,6 +87,7 @@ a:hover {
 
 .main-content {
     margin-top: 15vh;
+    margin-bottom: 15vh;
 }
 
 .footer {
