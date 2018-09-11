@@ -17,65 +17,61 @@
 
 <body>
 
-    <div class='container-fluid'>
+    <nav class='navbar navbar-expand-md'>
+        <a class='d-flex justify-content-start' href='/'>
+            <h3 class='pl-2 pr-2' id='yourname'>R A Y M O N D &nbsp; S O N G</h3>
+        </a>
+        <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarsExample04' aria-controls='navbarsExample04'
+            aria-expanded='false' aria-label='Toggle navigation'>
+            <span>
+                <i class='fas fa-bars'></i>
+            </span>
+        </button>
 
-        <nav class='navbar navbar-expand-md'>
-            <a class='d-flex justify-content-start' href='/'>
-                <h3 class='pl-2 pr-2' id='yourname'>R A Y M O N D &nbsp; S O N G</h3>
-            </a>
-            <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarsExample04' aria-controls='navbarsExample04'
-                aria-expanded='false' aria-label='Toggle navigation'>
-                <span>
-                    <i class='fas fa-bars'></i>
-                </span>
-            </button>
-
-            <div class='justify-content-end collapse navbar-collapse' id='navbarsExample04'>
-                <ul class='navbar-nav'>
-                    <li class='nav-item'>
-                        <a class='top-link nav-link' href='/about'>About
-                            <span class='sr-only'>(current)</span>
-                        </a>
-                    </li>
-                    <li class='nav-item'>
-                        <a class='top-link nav-link' href='./portfolio.html'>Portfolio</a>
-                    </li>
-                    <li class='nav-item'>
-                        <a class='top-link nav-link' href='/contact'>Contact </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
-
-        {{{body}}}
-
-        <div class="row">
-            <footer class='footer col-12 text-light text-center'>
-                <h3 class='mt-1' id='copy'>
-                    <a class='footer-link' target="_blank" href='https://linkedin.com/in/raymond-song-44a6a857'>
-                        <i class='fab fa-linkedin'></i>
+        <div class='justify-content-end collapse navbar-collapse' id='navbarsExample04'>
+            <ul class='navbar-nav'>
+                <li class='nav-item'>
+                    <a class='top-link nav-link' href='/about'>About
+                        <span class='sr-only'>(current)</span>
                     </a>
-                    &nbsp;
-                    <a class='footer-link' target="_blank" href='https://github.com/rs01247'>
-                        <i class="fab fa-github"></i>
-                    </a>
-                    &nbsp;
-                    <a class='footer-link' target="_blank" href='./assets/files/raymond-song-resume.pdf'>
-                        <i class="far fa-file"></i>
-                    </a>
-                    &nbsp;
-                    <a class='footer-link' target="_blank" href='mailto:raymondminsong@gmail.com'>
-                        <i class="far fa-envelope"></i>
-                    </a>
-                </h3>
-                <p>
-                    &copy; Raymond Song • Made with Handlebars and Bootstrap
-                </p>
-            </footer>
+                </li>
+                <li class='nav-item'>
+                    <a class='top-link nav-link' href='./portfolio.html'>Portfolio</a>
+                </li>
+                <li class='nav-item'>
+                    <a class='top-link nav-link' href='/contact'>Contact </a>
+                </li>
+            </ul>
         </div>
+    </nav>
 
-    </div>
+
+    {{{body}}}
+
+    <footer class='footer col-12 text-light text-center'>
+        <div class="container">
+            <h3 id='copy'>
+                <a class='footer-link' target="_blank" href='https://linkedin.com/in/raymond-song-44a6a857'>
+                    <i class='fab fa-linkedin'></i>
+                </a>
+                &nbsp;
+                <a class='footer-link' target="_blank" href='https://github.com/rs01247'>
+                    <i class="fab fa-github"></i>
+                </a>
+                &nbsp;
+                <a class='footer-link' target="_blank" href='./assets/files/raymond-song-resume.pdf'>
+                    <i class="far fa-file"></i>
+                </a>
+                &nbsp;
+                <a class='footer-link' target="_blank" href='mailto:raymondminsong@gmail.com'>
+                    <i class="far fa-envelope"></i>
+                </a>
+            </h3>
+        </div>
+        <p class='mb-0'>
+            &copy; Raymond Song • Made with Handlebars and Bootstrap
+        </p>
+    </footer>
 
     <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo'
         crossorigin='anonymous'></script>
@@ -85,7 +81,7 @@
         crossorigin='anonymous'></script>
     <script defer src='https://use.fontawesome.com/releases/v5.0.13/js/all.js' integrity='sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe'
         crossorigin='anonymous'></script>
-
+    <script src="../../public/assets/javascript/app.js"></script>
 </body>
 
 </html>

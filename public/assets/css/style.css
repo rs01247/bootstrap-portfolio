@@ -1,13 +1,22 @@
-/* html {
-    height: 100%;
-    position: relative;
-} */
+html {
+    /* height: 100%; */
+    /* position: relative; */
+}
 
 body {
     font-family: 'Jaldi', sans-serif;
     margin: 0;   
     /* height: 100%;
     position: relative;    */
+    /* display: flex;
+    flex-direction: column;  */
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.container, .container-fluid {
+    flex: 1;
 }
 
 #yourname {
@@ -34,7 +43,24 @@ a:hover {
     width: 100%;
 }
 
-#port-logo {
+.card-header {
+    background-color: #a3adc1;
+    color: white;
+    font-family: 'Assistant', sans-serif;
+    border-bottom: 0;
+}
+
+.card {
+    border: 0;
+    box-shadow: 0 2px 6px 0
+    hsla(0, 0%, 0%, 0.2);
+}
+
+.list-group-item {
+    border: 0;
+}
+
+.port-header {
     font-family: 'Assistant', sans-serif;
 }
 
@@ -59,7 +85,7 @@ a:hover {
     color: gray
 }
 
-#my-bio, #my-port {
+.main-content {
     margin-top: 15vh;
 }
 
@@ -70,6 +96,7 @@ a:hover {
     width: 100%;    
     /* position: absolute;
     bottom: 0; */
+    flex-shrink: 0;
 }
 
 .footer-link {

@@ -1,14 +1,14 @@
 require("dotenv").config();
-const express = require('express');
-const exphbs = require('express-handlebars');
-const htmlRoutes = require('./routes/htmlRoutes')
-const apiRoutes = require('./routes/apiRoutes')
+const express = require("express");
+const exphbs = require("express-handlebars");
+const htmlRoutes = require("./routes/htmlRoutes")
+const apiRoutes = require("./routes/apiRoutes")
 
 const app = express();
 const PORT = process.env.PORT || 8080;
 
 // USING PUBLIC FOLDER W/ CSS, FRONT END JS, AND IMAGES
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + "/public"));
 
 // HANDLEBARS
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
