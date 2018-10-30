@@ -35,10 +35,10 @@ a:hover {
 }
 
 #skill-box {
-    /* background-image: url("../images/CCC_2.png");
-    background-position: center;
+    background-image: url("../images/stonehaven.png");
+    /* background-position: center;
     width: 100%; */
-    background-color: lightgray;
+    /* background-color: lightgray; */
 }
 
 .card-header {

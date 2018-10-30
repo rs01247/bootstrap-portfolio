@@ -1,0 +1,17 @@
+#yourname {
+    font-family: 'Assistant', sans-serif;
+    color: darkslategray;
+    font-size: 3vh;
+    text-decoration: none;
+}
+
+.top-link {
+    color: darkslategray;
+    font-family: 'Jaldi', sans-serif;
+    text-decoration: none;
+}   
+
+/* a:hover {
+    color: lightgray;
+    text-decoration: none;
+} */
