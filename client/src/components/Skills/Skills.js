@@ -16,13 +16,12 @@ const Skills = () => (
                         <div className="card">
                             <div className="card-header">
                                 Languages
-                        </div>
+                            </div>
                             <ul className="list-group list-group-flush">
                                 <li className="list-group-item">JavaScript ECMAScript 6</li>
                                 <li className="list-group-item">HTML 5</li>
                                 <li className="list-group-item">CSS 3</li>
                                 <li className="list-group-item">SQL</li>
-                                <li className="list-group-item">C#</li>
                             </ul>
                         </div>
                     </div>
@@ -30,13 +29,12 @@ const Skills = () => (
                         <div className="card">
                             <div className="card-header">
                                 Libraries
-                        </div>
+                            </div>
                             <ul className="list-group list-group-flush">
                                 <li className="list-group-item">MongoDB</li>
                                 <li className="list-group-item">Express</li>
                                 <li className="list-group-item">React</li>
                                 <li className="list-group-item">Node</li>
-                                <li className="list-group-item">jQuery</li>
                             </ul>
                         </div>
                     </div>
@@ -44,12 +42,11 @@ const Skills = () => (
                         <div className="card">
                             <div className="card-header">
                                 Additional
-                        </div>
+                            </div>
                             <ul className="list-group list-group-flush">
                                 <li className="list-group-item">GIT</li>
                                 <li className="list-group-item">MVC</li>
-                                <li className="list-group-item">AJAX</li>
-                                <li className="list-group-item">JSON</li>
+                                <li className="list-group-item">AJAX/AXIOS</li>
                                 <li className="list-group-item">Heroku</li>
                             </ul>
                         </div>
