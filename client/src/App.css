@@ -1,0 +1,11 @@
+body {
+    font-family: 'Jaldi', sans-serif;
+    margin: 0;   
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.container, .container-fluid {
+    flex: 1;
+}

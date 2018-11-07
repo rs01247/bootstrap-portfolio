@@ -1,0 +1,25 @@
+
+/* #contact-box {
+    padding-bottom: 25vh;
+} */
+
+.connect {
+    position: relative;
+	/* padding-bottom: 30px; */
+}
+
+#lets-connect {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    height: 90%;
+}
+
+.contact-title {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-form {
+    background-color: #f0f0f0;
+    color: #000000;
+}
