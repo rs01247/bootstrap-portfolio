@@ -3,6 +3,7 @@ import "./Contact.css";
 import axios from "axios";
 import Nav from "../Nav";
 import Footer from "../Footer";
+import connect from "../../assets/images/connect-slim.jpg"
 
 class Contact extends Component {
     constructor(props) {
@@ -23,6 +24,7 @@ class Contact extends Component {
 
     submit(e) {
         e.preventDefault();
+
         axios.post("/api/email/send", {
             to: "raymondminsong@gmail.com",
             from: this.state.email,
@@ -30,7 +32,7 @@ class Contact extends Component {
             text: this.state.message,
             html: this.state.message
         })
-            .then((res) => console.log("EMAIL SENT"))
+            .then(window.location = "/contact")
             .catch((err) => console.error(err))
     }
 
@@ -43,7 +45,7 @@ class Contact extends Component {
                         <div className="col-md-8 jumbotron bg-transparent text-dark">
                             <div className="row justify-content-end">
                                 <div className="connect col-lg-5">
-                                    <img id="lets-connect" src="./public/images/connect-slim.jpg" />
+                                    <img id="lets-connect" src={connect} alt="Let's Connect" />
                                 </div>
                                 <div className="col-lg-7">
                                     <form>

@@ -1,11 +1,18 @@
 .footer {
-    padding-top: 2vh;
+    padding-top: 1vh;
     background-color: #a3adc1;
     width: 100%;    
     flex-shrink: 0;
+    position: absolute;
+    left:0;
+    bottom:0;
+    right:0;
 }
   
 .footer-link {
     color: #f0f0f0;
 }
-  
+
+#copy {
+    margin-bottom: 2px;
+}

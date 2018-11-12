@@ -5,16 +5,19 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  position: relative;
+  /* overflow: hidden; */
+  padding-bottom: 100px;
 }
 
 .container, .container-fluid {
-  flex: 1;
+  flex: 1;  
 }
 
 a:hover {
   color: lightgray;
   text-decoration: none;
-}
+} 
 
 .button-color {
   background-color:  #4aaaa5;
@@ -29,27 +32,6 @@ a:hover {
 /* #contact-box {
   padding-bottom: 25vh;
 } */
-
-.connect {
-  position: relative;
-/* padding-bottom: 30px; */
-}
-
-#lets-connect {
-  position: absolute;
-  bottom: 5%;
-  right: 5%;
-  height: 90%;
-}
-
-.contact-title {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.contact-form {
-  background-color: #f0f0f0;
-  color: #000000;
-}
 
 /* @media (min-width: 768px) { ... } */
 

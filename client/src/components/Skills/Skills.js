@@ -46,7 +46,7 @@ const Skills = () => (
                             <ul className="list-group list-group-flush">
                                 <li className="list-group-item">GIT</li>
                                 <li className="list-group-item">MVC</li>
-                                <li className="list-group-item">AJAX/AXIOS</li>
+                                <li className="list-group-item">AJAX</li>
                                 <li className="list-group-item">Heroku</li>
                             </ul>
                         </div>

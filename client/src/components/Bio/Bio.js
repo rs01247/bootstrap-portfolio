@@ -1,5 +1,6 @@
 import React from "react";
 import "./Bio.css";
+import pic from "../../assets/images/bio-image.jpg";
 
 const Bio = () => (
     <div className="container">
@@ -7,7 +8,7 @@ const Bio = () => (
             <div className="main-content col-md-10 jumbotron bg-transparent text-dark">
                 <div className="row">
                     <div className="col-lg-4 mt-4">
-                        <img id="my-pic" className="img-fluid rounded-circle" src="./assets/images/bio-image.jpg" alt="Biography Pic" />
+                        <img id="my-pic" className="img-fluid rounded-circle" src={pic} alt="Biography Pic" />
                     </div>
                     <div className="col-lg-8 mt-3" id="about-me">
                         <p>
@@ -15,8 +16,9 @@ const Bio = () => (
                             from the UC Irvine web development course to broaden my knowledge and establish a path into
                             the technology sector. The last 5 years of a career in B2B sales and logistics have allowed
                             me to cultivate a skill set based in strong communication, time management, and effective
-                            team work. I strongly believe that my ability to translate a client’s perspective into
-                            tangible needs directly translates into skills needed to create an app.
+                            team work. I strongly believe that my ability to correlate a client’s perspective with
+                            tangible needs directly translates into practical skills required developing projects and 
+                            applications.
                         </p>
                         <p>
                             Comfortable speaking to non-technical audiences about technical subject matter. Proven track 
