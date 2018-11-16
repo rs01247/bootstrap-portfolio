@@ -12,7 +12,7 @@ const Skills = () => (
                     </div>
                 </div>
                 <div className="row text-center justify-content-center mt-4">
-                    <div className="col-lg-3 mt-2">
+                    <div className="card-box col-lg-3 mt-3">
                         <div className="card">
                             <div className="card-header">
                                 Languages
@@ -25,7 +25,7 @@ const Skills = () => (
                             </ul>
                         </div>
                     </div>
-                    <div className="col-lg-3 mt-2">
+                    <div className="card-box col-lg-3 mt-3">
                         <div className="card">
                             <div className="card-header">
                                 Libraries
@@ -38,7 +38,7 @@ const Skills = () => (
                             </ul>
                         </div>
                     </div>
-                    <div className="col-lg-3 mt-2">
+                    <div className="card-box col-lg-3 mt-3">
                         <div className="card">
                             <div className="card-header">
                                 Additional

@@ -4,20 +4,23 @@
     width: 100%; */
     /* background-color: lightgray; */
   }
-  
+
 .card-header {
     background-color: #a3adc1;
     color: white;
     font-family: 'Assistant', sans-serif;
     border-bottom: 0;
+    /* margin: auto;
+    display: block; */
 }
   
 .card {
     border: 0;
     box-shadow: 0 2px 6px 0
     hsla(0, 0%, 0%, 0.2);
-    width: 16rem;
+    width: 15rem;
     margin: auto;
+    display: block;
 }
 
 .list-group-item {

@@ -36,6 +36,9 @@ a:hover {
 /* @media (min-width: 768px) { ... } */
 
 @media (max-width: 1280px) {
+  .card-box {
+    margin: auto;
+  }
   .card {
       width: 12rem;
   }

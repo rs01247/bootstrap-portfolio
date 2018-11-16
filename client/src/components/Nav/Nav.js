@@ -20,12 +20,12 @@ const Nav = () => (
                 <i className='fas fa-bars'></i>
             </span>
         </button> */}
-
-        <div className='justify-content-end collapse navbar-collapse' id='navbarsExample04'>
+        {/* <div className='justify-content-end collapse navbar-collapse' id='navbarsExample04'> */}
+        <div className='ml-2 justify-content-end navbar-collapse' id='navbarsExample04'>
             <ul className='navbar-nav'>
                 <li className='nav-item'>
                     <a className='top-link nav-link' href='/contact'>Contact
-                        <span className='sr-only'>(current)</span>
+                        {/* <span className='sr-only'>(current)</span> */}
                     </a>
                 </li>
                 {/* <li className='nav-item'>
